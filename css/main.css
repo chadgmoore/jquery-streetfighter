@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
 	background-color: black;
 }
 
@@ -13,7 +12,6 @@ body {
 
 .ryu{
 	float: left;
-=======
   background-color: black;
 }
 
@@ -42,7 +40,6 @@ body {
 
 .ryu {
   float: left;
->>>>>>> FETCH_HEAD
 }
 
 .ryu-ready, .ryu-still, .ryu-throwing {
@@ -65,14 +62,13 @@ body {
 .ryu-throwing {
   background-image: url('../images/ryu-throwing-hadouken.png');
 }
-<<<<<<< HEAD
 
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
   background-repeat: no-repeat;
 }
 
 .hadouken {
-    background-image: url('../images/hadouken.gif');
+  background-image: url('../images/hadouken.gif');
 	width: 156px; 
 	height: 90px;
 	display: none;
@@ -81,5 +77,3 @@ body {
 	left: -130px;
 	float: left;
 }
-=======
->>>>>>> FETCH_HEAD
