@@ -2,6 +2,7 @@ $(document).ready(function() {
   $('.ryu').mouseenter(function() {
     $('.ryu-still').hide();
     $('.ryu-ready').show();
+    $('#suvi')[0].load();
   })
 
   .mouseleave(function() {
@@ -34,10 +35,19 @@ $(document).ready(function() {
 			$('.ryu-ready').hide();
 			$('.ryu-still').hide();
 			$('.ryu-throwing').hide();
-    		$('.ryu-cool').show();
-			}
+    	$('.ryu-cool').show();
+      $('#suvi')[0].volume = 0.50;
+      $('#suvi')[0].play();
+      }
 	})
 
+  $(document).keyup(function (e) {
+      if (e.keyCode == 88) {
+        $('#suvi')[0].pause();
+        $('.ryu-cool').hide();
+        $('.ryu-ready').show();
+      }
+  })
 
 
 
